@@ -1,0 +1,169 @@
+.main-sec{
+    
+
+background: #41295a; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #41295a , #2F0743); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.about-sec{
+background: #FFB75E; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFB75E , #ED8F03); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFB75E , #ED8F03); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+a{
+    font-family: 'Bungee Hairline', cursive;
+}
+.mainbar{
+    margin-top:-40px;
+}
+h1{
+    font-family: 'Bungee Hairline', cursive;
+}
+h5{
+    font-family: 'Bungee Hairline', cursive;
+}
+.buttons-main a{
+    margin:15px;
+    font-size:20px;
+}
+.about-contain{
+    margin-top:-45px;
+    height: 108%;
+    display: flex;
+}
+.left-half{
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+  flex:1;
+}
+.right-half{
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+  flex:5;
+}
+.left-half{
+    background: #41295a; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #41295a , #2F0743); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+}
+.right-half{
+/*
+    background: linear-gradient(to left, #FFB75E , #ED8F03), url(../images/main-background.png);
+    background-blend-mode: multiply;
+*/
+}
+
+/*
+section {
+  width: 100%;
+  position: relative;
+  height: 300px;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px 80px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+section #button5 {
+  position: relative;
+  width: 250px;
+  height: 70px;
+  font-size: 1.2em;
+  letter-spacing: 5px;
+  color: #5B5B5D;
+  font-weight: 800;
+margin-left:50px;
+}
+
+#button5:hover {
+  cursor: pointer;
+}
+
+#button5 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #FDFFFC;
+  overflow: hidden;
+  padding: 3px;
+  transition: all 0.5s ease;
+}
+
+#button5 a span {
+  background: linear-gradient(to right, #CD96FE, #8082FE);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0.19), 0 0 0 rgba(0, 0, 0, 0.23);
+  transition: all .33s ease;
+}
+
+#button5:hover a span {
+  color: #FDFFFC;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#button5:hover a {
+  background: transparent;
+}
+
+#button5:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #CD96FE, #8082FE);
+  z-index: 1;
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#button5 a:before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  background: #FDFFFC;
+  opacity: 1;
+  z-index: -1;
+  transition: all .5s ease;
+}
+
+#button5:hover a:before {
+  opacity: 0;
+}
+
+#button5 a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #CD96FE, #5A36FD);
+  z-index: -2;
+  opacity: 1;
+}
+*/
+
