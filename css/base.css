@@ -1,16 +1,21 @@
 .main-sec{
-
-
-background: #41295a; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #41295a , #2F0743); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: url("https://i.gyazo.com/a3c054f94946a4b28a2362f39ee3e3ee.png");
+/* fallback for old browsers*/
+background: -webkit-linear-gradient(to left, #41295a , #2F0743);
+/* Chrome 10-25, Safari 5.1-6*/
+background: linear-gradient(to left, #41295a , #2F0743);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 }
 .about-sec{
-background: #FFB75E; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #FFB75E , #ED8F03); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #FFB75E , #ED8F03); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background: #FFB75E; /* fallback for old browsers*/
+background: -webkit-linear-gradient(to left, #FFB75E , #ED8F03); /* Chrome 10-25, Safari 5.1-6*/
+background: linear-gradient(to left, #FFB75E , #ED8F03); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 }
+
+/*.main-sec{
+  background: url("https://i.gyazo.com/a3c054f94946a4b28a2362f39ee3e3ee.png");
+}*/
+
 a{
     font-family: 'Roboto Slab', serif;
 }
@@ -69,21 +74,8 @@ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }
 canvas{ display: block; vertical-align: bottom; }
 /* ---- particles.js container ---- */
 #particles-js{
-  position:absolute; width: 100%;
-  height: 100%; background-color: #b61924;
-  background-image: url(""); background-repeat: no-repeat;
-  background-size: cover; background-position: 50% 50%; }
-/* ---- stats.js ---- */
-.count-particles{ background: #000022; position: absolute;
-  top: 48px; left: 0; width: 80px; color: #13E8E9;
-  font-size: .8em; text-align: left; text-indent: 4px;
-  line-height: 14px; padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif; font-weight: bold; }
-  .js-count-particles{ font-size: 1.1em; }
-  #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; }
-  #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
-
-/*
+  background: cornflowerblue;
+}
 section {
   width: 100%;
   position: relative;
