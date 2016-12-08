@@ -58,9 +58,9 @@ background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, F
 }
 
 .img-align {
-  margin-top: -40px;
+  /*margin-top: -40px;
   margin-bottom: -50px;
-  margin-left: 800px;
+  margin-left: 800px;*/
   margin: auto;
   display: block;
 }
