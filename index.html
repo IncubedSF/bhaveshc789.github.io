@@ -14,7 +14,11 @@
         <link href="css/base.css" rel = "stylesheet" type="text/css">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+        <!-- Countdown -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="/path/to/jquery.countdown.js"></script> 
 </head>
+
     <body>
         <div id="particles-js"></div>
         <div id="fullpage">
@@ -47,6 +51,15 @@
         <div class="row">
             <h5 class="white-text center-align date-main">March 18 - 19 @ Student Events Center </h5>
         </div>
+        <div>
+            <script type="text/javascript">
+            $(function() {
+             $('.yourCountdownContainer').countdown({
+                date: "June 7, 2087 15:03:26"
+             });
+            });
+            </script>
+        </div>    
         <div class="row">
             <div class="buttons-main center">
                 <a href="https://sfhacks1.typeform.com/to/NPTzRf" class="waves-effect waves-light btn-large hoverable amber accent-4">APPLY</a>
