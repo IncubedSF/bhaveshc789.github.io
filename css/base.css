@@ -57,6 +57,11 @@ background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, F
 */
 }
 
+.img-align {
+  display: block;
+  margin:auto;
+}
+
 /*
 section {
   width: 100%;
