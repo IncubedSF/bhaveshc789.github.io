@@ -2179,7 +2179,7 @@ header,
 hgroup,
 main,
 menu,
-nav,
+/*nav,*/
 section,
 summary {
   display: block;
@@ -2578,7 +2578,7 @@ a {
   box-shadow: none !important;
 }
 
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -7102,7 +7102,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
   right: 0;
   height: 120vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
   z-index: 997;
   will-change: opacity;
 }
