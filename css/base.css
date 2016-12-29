@@ -1,7 +1,7 @@
 .main_h {
   position: fixed;
   top: 0px;
-  max-height: 70px;
+  max-height: 50px;
   z-index: 999;
   width: 100%;
   padding-top: 17px;
@@ -12,7 +12,7 @@
   opacity: 0;
   top: -100px;
   padding-bottom: 6px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 @media only screen and (max-width: 766px) {
   .main_h {
@@ -22,6 +22,7 @@
 
 .open-nav {
   max-height: 400px !important;
+  padding-bottom: 90px;
 }
 .open-nav .mobile-toggle {
   transform: rotate(-90deg);
@@ -29,10 +30,13 @@
 }
 
 .sticky {
-  background-color: rgba(255, 255, 255, 0.93);
+  background-color: rgba(0, 0, 255, 0.3);
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
+}
+.logos img{
+  justify-content: space-between;
 }
 /*
 .logo {
@@ -69,7 +73,7 @@ nav ul {
 }
 @media only screen and (max-width: 766px) {
   nav ul {
-    padding-top: 10px;
+    padding-top: 0px;
     margin-bottom: 22px;
     float: left;
     text-align: center;
@@ -111,6 +115,7 @@ nav ul a {
     display: block;
   }
 }
+
 .mobile-toggle span {
   width: 30px;
   height: 4px;
@@ -215,7 +220,10 @@ background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, F
 
   }
 }
-
+.mlh-logo{
+  position: relative;
+  min-width: 20px;
+}
 .intro {
   /*height: 100vh;
   background-image: url(../images/skyline.png);

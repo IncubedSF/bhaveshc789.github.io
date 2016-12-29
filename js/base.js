@@ -31,6 +31,6 @@ $('nav a').click(function(event) {
     var target = $(id).offset().top - offset;
     $('html, body').animate({
         scrollTop: target
-    }, 500);
+    }, 900);
     event.preventDefault();
 });
