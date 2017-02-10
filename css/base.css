@@ -46,11 +46,11 @@
     height: 250px;
 }
 
-#sponsors {
+/*#sponsors {
   background-color: #fff;
   padding-bottom: 20px;}
   #sponsors .contents {
-    padding: 50px 13%;
+    padding: 90px 13%;
     text-align: center; }
   #sponsors h3 {
     font-size: 3em;
@@ -66,7 +66,7 @@
   #sponsors .sponsor {
     display: inline-block;
     max-height: 100px;
-    margin: 20px 20px;
+    margin: 40px;
     opacity: 0.55;
     -webkit-transition-duration: .5s;
     -moz-transition-duration: .5s;
@@ -77,7 +77,7 @@
     -webkit-transition-duration: .5s;
     -moz-transition-duration: .5s;
     -o-transition-duration: .5s;
-    transition-duration: .5s; }
+    transition-duration: .5s; }*/
 
 /*
 .logo {
