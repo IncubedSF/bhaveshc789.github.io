@@ -275,6 +275,10 @@ background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, F
   height: 50vh;
 }
 
+.schedule{
+  height: 60vh;
+}
+
 .mlh-logo{
   position: relative;
   min-width: 20px;
