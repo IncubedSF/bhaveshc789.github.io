@@ -20,6 +20,10 @@
   }
 }
 
+.brand-logo{
+  margin-left: 20px;
+}
+
 .open-nav {
   max-height: 400px !important;
   padding-bottom: 90px;
@@ -262,6 +266,15 @@ background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, F
 
   }
 }
+
+.sponsors{
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 50vh;
+}
+
 .mlh-logo{
   position: relative;
   min-width: 20px;
