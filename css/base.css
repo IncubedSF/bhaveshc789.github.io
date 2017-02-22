@@ -311,6 +311,11 @@ background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, F
   /*vertical-align: middle;*/
 }
 .info{
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 80vh;
 }
 .main-page{
   vertical-align: middle;
