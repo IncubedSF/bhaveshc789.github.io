@@ -1,0 +1,71 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.main_h {
+  position: fixed;
+  top: 0px;
+  max-height: 50px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 0px;
+  background: #41295a url(../images/main-background.png) repeat;
+  overflow: hidden;
+  padding-bottom: 6px;
+  border-bottom: 1px solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gainsboro;
+}
+
+body {
+  margin: 0;
+  /*font-weight: 500;*/
+  /*font-family: 'HelveticaNeue';*/
+  font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+  background: #41295a url(../images/main-background.png) repeat;
+}
+.brand-logo{
+  margin-left: 20px;
+}
+
+footer {
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #373B44;
+  color: white;
+
+  a {
+    color: #FE4B74;
+    /*font-weight: 500;*/
+    text-decoration: none;
+  }
+}
+
+section {
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  /*background-color: #373B44;
+  background-color: #41295a;  fallback for old browsers
+  background-image: url(../images/main-background.png);
+  background-repeat: repeat; */
+  /*background: #41295a repeat;*/
+  background: #41295a url(../images/main-background.png) repeat;
+
+
+  height: 100vh;
+
+  & : nth-of-type(2n) {
+
+
+background: #41295a; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #41295a , #2F0743); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+}
