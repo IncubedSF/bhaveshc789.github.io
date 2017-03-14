@@ -8,6 +8,7 @@
   background: #41295a url(../images/main-background.png) repeat;
   overflow: hidden;
   padding-bottom: 6px;
+  font-family: "Montserrat", sans-serif;
   border-bottom: 1px solid;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -139,7 +140,7 @@ nav ul li {
 nav ul a {
   color: #ffc107;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 12px;
 }
 
 .mobile-toggle {
