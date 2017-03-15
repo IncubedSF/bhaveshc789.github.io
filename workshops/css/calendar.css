@@ -5,8 +5,11 @@
   font-weight: normal;
   font-style: normal;
 }
+#calendar{
+  display: none;
+}
 
-.fc-calendar-container {
+/*.fc-calendar-container {
 	position: relative;
 	height: 400px;
 	width: 400px;
@@ -58,14 +61,14 @@
 .fc-calendar .fc-head > div {
 	float: left;
 	height: 100%;
-	width:  14.28%; /* 100% / 7 */
+	width:  14.28%; /* 100% / 7
 	width: -moz-calc(100%/7);
 	width: -webkit-calc(100%/7);
 	width: calc(100%/7);
 	position: relative;
 }
 
-/* IE 9 is rounding up the calc it seems */
+/* IE 9 is rounding up the calc it seems
 .ie9 .fc-calendar .fc-row > div,
 .ie9 .fc-calendar .fc-head > div {
 	width:  14.2%;
@@ -120,4 +123,4 @@
 
 .fc-calendar .fc-row:last-child {
 	border-bottom: none;
-}
+}*/
