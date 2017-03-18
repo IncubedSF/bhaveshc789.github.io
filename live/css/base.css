@@ -11,6 +11,10 @@ body {
 i{
   font-family: 'Josefin Sans', sans-serif;
 }
+
+.custom_bt{
+  height:70px;
+}
 .main_h {
   position: fixed;
   top: 0px;
