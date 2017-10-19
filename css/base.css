@@ -277,6 +277,7 @@ input[type=checkbox] {
             font-size: 5.2em;
             font-weight: 900;
             text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+            margin-top: -5vh;
         }
 
         h2 {
