@@ -1,68 +1,180 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>SF HACKS</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,800,900i" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#191321">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#191321">
-    <meta name="theme-color" content="#191321">
-</head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="site-canvas">
-        <div class="intro">
-            <div class="confetti"></div>
-            <div class="title">
-                <h1 id="head1">SF HACKS</h1>
-                <h2 id="head2">2018</h2>
-                <h4 id="head3">COMING SOON</h4>
-                <a id ="headlink" target ="_blank"  href="old-website/index.html">(Last year's website)</a>
+    <header class="site-header">
+        <div class="container-wide">
+            <h1 class="logo" itemscope itemtype="http://schema.org/Organization">
+                <a href="/" itemprop="url">
+                    <span class="h2">
+                        <span class="light-header2">sf</span><span class="bold-header2">hacks</span>
+                    </span>
+                </a>
+            </h1>
+            <div class="site-header-panel">
+                <nav class="site-navigation">
+                    <ul class="site-navigation-list">
+                      
+                        <li>
+                            <a href="">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#faq">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="">Sponsors</a>
+                        </li>
+                        <li>
+                            <a href="old-website/index.html">2017 Website</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+
             </div>
-            
+
+            <!-- 
+        <div class="site-header-cta">
+            <a class="btn" href="/register/">get tickets<span></span></a>
+        </div> -->
         </div>
-    </div>
-    <div class="settings">
-        <h3>Configure your confetti
-            <span class="close"></span>
-        </h3>
-        <div class="field half">
-            <label for="rows">Rows</label>
-            <input type="number" name="rows" value="5" />
-        </div>
-        <div class="field half">
-            <label for="rows">Columns</label>
-            <input type="number" name="columns" value="5" />
-        </div>
-        <div class="field full">
-            <input type="checkbox" name="opacity" checked="true" value="true" />
-            <label for="randomOpacity">Random Opacity</label>
-        </div>
-        <div class="field full">
-            <input type="checkbox" name="size" checked="true" value="true" />
-            <label for="randomSize">Random Size</label>
-        </div>
-        <div class="field full">
-            <input type="checkbox" name="rotation" checked="true" value="true" />
-            <label for="randomRotation">Random Rotation</label>
-    
-        </div>
-    </div>
+    </header>
 
 
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.5.2/dom-to-image.min.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    
-    </body>
-    
-    </html>
+
+    <main id="content" class="main page-content fade-in" aria-label="Content">
+        <!-- <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=blue"
+                    target="_blank">
+                    <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/blue.svg" alt="Major League Hacking 2017 Hackathon Season"
+                        style="width:100%">
+                </a> -->
+
+
+        <header class="universe-intro universe" data-detect-viewport="">
+            <a id="mlh-trust-badge" style="position:absolute;top:0px;right:80px;max-width:100px;width:10%;min-width: 60px;display:block;"
+                href="https://mlh.io/seasons/na-2018/events" target="_blank">
+                <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/gray.svg" alt="Major League Hacking 2017 Hackathon Season"
+                    style="width:100%">
+            </a>
+            <img class="center img-circle" src="images/sfhacks.png" style="height:30vh; margin-top: 40px;">
+            <div class="container text-white text-center">
+                <div class="text-group universe-intro__content">
+                    <figure class="universe-logo-wrap" data-animate-in="up">
+                        <div id="clouds2">
+                            <div class="cloud1"></div>
+                            <div class="cloud2"></div>
+                            <div class="cloud3"></div>
+                        </div>
+                        <img class="universe-logo" src="images/Logo.svg" alt="GitHub Universe Logo - full" />
+                        <div id="clouds">
+                            <div class="cloud1"></div>
+                            <div class="cloud2"></div>
+                            <div class="cloud3"></div>
+                        </div>
+
+                        <span class="h1">sf hacks</span>
+
+                    </figure>
+                    <div class="text-group2">
+                        <p>
+                            <span class="h3" data-animate-in="up" data-animate-in-delay="600">Mar 10 - 11, 2018</span>
+                            <span class="h3" data-animate-in="up" data-animate-in-delay="700">San Francisco State University</span>
+                        </p>
+                    </div>
+                    <div class="text-group__ft" data-animate-in="up" data-animate-in-delay="900">
+                        <a class="btn" href="/register/">COMING SOON</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="stars"></div>
+            <div class="stars-lg"></div>
+            <figure class="shooting-star">
+                <img src="https://githubuniverse.com/assets/img/universe/shapes/shooting-star.svg" alt="shooting star" />
+            </figure>
+            <figure class="shooting-star-right">
+                <img src="https://githubuniverse.com/assets/img/universe/shapes/shooting-star.svg" alt="shooting star" />
+            </figure> -->
+
+
+        </header>
+
+        <div class="container-full text-white text-center" id="faq">
+            <div class="text-group">
+                <figure class="universe-logo-wrap" data-animate-in="up">
+                    <span class="h1">
+                        <span class="bold-header">FAQ</span>
+                    </span>
+                </figure>
+                <div class="container-wide" data-animate-in="up">
+                    <div class="row">
+                        <div class="row">
+                            <div class="six columns">
+                                <h3>What is a hackathon?</h3>
+                                <p>A hackathon is where you turn your crazy ideas into real stuff. Hundreds of hackers from
+                                    across California will gather and build something they're passionate about. You take
+                                    care of building. We'll take care of you.</p>
+                            </div>
+                            <div class="six columns">
+                                <h3>What is Major Leaque Hacking?</h3>
+                                <p>Major League Hacking (MLH) is the official student hackathon league. SF Hacks is an official
+                                    MLH Member Event, so that means we follow the
+                                    <a id="mlh-link" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                                        target="_blank">
+                                        <strong>MLH Code Of Conduct</strong>
+                                    </a>. You authorize us to share certain application/registration information for event administration,
+                                    ranking, MLH administration, pre and post-event informational e-mails, and occasional
+                                    messages MLH Member Event, so that means we follow the
+                                    <a id="mlh-link" href="https://mlh.io/privacy" target="_blank"><strong>MLH Privacy Policy</strong></a>. You authorize us to about hackathons in line with the MLH Privacy Policy.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="six columns">
+                                <h3>How much does it cost?</h3>
+                                <p>SF Hacks is free for all admitted participants. We’ll have WiFi, food, workshops, and awesome
+                                    swag during the entire 24 hours you’ll be with us.</p>
+                            </div>
+                            <div class="six columns">
+                                <h3>What If I don't have a team?</h3>
+                                <p>The hacker ethos is all about teamwork. If you don’t have a teammate, we’ll hold a team-formation
+                                    workshop where you can meet your new best friend.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="six columns">
+                                <h3>Who can attend?</h3>
+                                <p>SF Hacks is open to all majors. Whether you’re a budding ethnic studies, cinema, or computer
+                                    science major, we want you to be here. Be prepared to learn, brainstorm, and build amazing
+                                    software/hardware. Throughout the hackathon, we’ll be holding workshops where students
+                                    can learn how to use various tools in developing websites and apps.</p>
+                            </div>
+                            <div class="six columns">
+                                <h3>What if I have more questions</h3>
+                                <p>Please feel free to send us a message over on Facebook, Twitter, or send us an email at <strong id="mlh-link">team@sfhacks.io.</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="screen"></span>
+        <div class="mobile-menu-trigger">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <script src="https://githubuniverse.com/assets/js/universe/jquery.js"></script>
+        <script src="https://githubuniverse.com/assets/js/universe/main.js" async></script>
+</body>
+
+</html>
+
