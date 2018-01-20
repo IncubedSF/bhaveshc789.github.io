@@ -2382,7 +2382,7 @@ body:before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 90vh;
+  height: 95vh;
 }
 
 
@@ -2396,7 +2396,7 @@ body:before {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 60vw;
+  width: 80vw;
   height: 500px;
   color: #23292C;
   
