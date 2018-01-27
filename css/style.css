@@ -2396,7 +2396,7 @@ body:before {
   -ms-flex-pack: center;
   justify-content: center;
   width: 80vw;
-  height: 500px;
+  height: 600px;
   color: #23292C;
   
 }
@@ -2896,4 +2896,11 @@ body:before {
   to {
     transform: translateY(-2000px);
   }
+}
+
+
+/* logos */
+#twilio-logo{
+  width: 25vw;
+  height: auto;
 }
