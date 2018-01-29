@@ -1,3 +1,12 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  
+}
+
 @font-face {
   font-family: 'nunito_sans';
   src: url("../fonts/universe/nunitosans-regular-webfont.woff2") format("woff2"), url("../fonts/universe/nunitosans-regular-webfont.woff") format("woff");
