@@ -2918,8 +2918,13 @@ body:before {
 @media screen and (max-width: 1680px) {
   
 }
-
-<!-- Schedule -->
+h3{
+  font-family: "myFont";
+}
+p{
+  font-family: "myFont" !important;
+}
+/* Schedule */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2930,7 +2935,7 @@ body:before {
   list-style: none;
   max-width: 50%;
   margin: 40px auto;
-  margin-top: -80px;
+  margin-top: -20px;
 }
 
 #schedule h3 {
