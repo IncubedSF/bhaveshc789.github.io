@@ -107,7 +107,7 @@ textarea {
 }
 
 .h1 {
-  padding-top: 1.2em;
+  padding-top: 0.6em;
   display: block;
   font-family: "aqua";
   font-weight: 700;
@@ -2390,7 +2390,7 @@ body:before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 95vh;
+  height: 120vh;
 }
 
 
@@ -2405,7 +2405,7 @@ body:before {
   -ms-flex-pack: center;
   justify-content: center;
   width: 80vw;
-  height: 600px;
+  height: 700px;
   color: #23292C;
   
 }
@@ -2913,7 +2913,10 @@ body:before {
   width: 25vw;
   height: auto;
 }
-
+#he-logo {
+  width: 25vw;
+  height: auto;
+}
 /* media queries */
 @media screen and (max-width: 1680px) {
   
