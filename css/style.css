@@ -2918,6 +2918,25 @@ body:before {
   height: auto;
 }
 /* media queries */
+
+@media screen and (max-width: 736px) {
+  #faq {
+    height: 150vh;
+  }
+  .six {
+    padding-bottom: 5vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  #faq {
+    height: 180vh;
+  }
+  .six {
+    padding-bottom: 5vh;
+  }
+}
+
+
 @media screen and (max-width: 360px) {
   #faq{
     height: 200vh;
@@ -2928,32 +2947,8 @@ body:before {
   
 }
 
-@media screen and (max-width: 480px) {
-  #faq {
-    height: 150vh;
-  }
-  .six {
-    padding-bottom: 5vh;
-  }
-}
 
-@media screen and (max-width: 736px) {
-  #faq {
-    height: 150vh;
-  }
-  .six {
-    padding-bottom: 5vh;
-  }
-}
 
-@media screen and (max-width: 1680px) {
-  #faq {
-    height: 95vh;
-  }
-  .six {
-    padding-bottom: 5vh;
-  }
-}
 
 h3{
   font-family: "myFont";
