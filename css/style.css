@@ -2917,11 +2917,16 @@ body:before {
   width: 25vw;
   height: auto;
 }
+#bsee-logo {
+  margin-top: -20px;
+  width: 15vw;
+  height: auto;
+}
 /* media queries */
 
 @media screen and (max-width: 736px) {
   #faq {
-    height: 150vh;
+    height: 160vh;
   }
   .six {
     padding-bottom: 5vh;
@@ -2929,7 +2934,7 @@ body:before {
 }
 @media screen and (max-width: 480px) {
   #faq {
-    height: 180vh;
+    height: 200vh;
   }
   .six {
     padding-bottom: 5vh;
@@ -2939,7 +2944,7 @@ body:before {
 
 @media screen and (max-width: 360px) {
   #faq{
-    height: 200vh;
+    height: 220vh;
   }
   .six{
     padding-bottom: 5vh;
