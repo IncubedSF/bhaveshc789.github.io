@@ -548,7 +548,7 @@ sup {
 
 .container-full {
   width: 100%;
-  height: 110vh;
+  height: 130vh;
   color: #fff;
   /* max-width: 100%; */
   /* overflow: hidden; */
@@ -2389,7 +2389,7 @@ body:before {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  height: 120vh;
+  height: 130vh;
 }
 
 
@@ -2911,12 +2911,18 @@ body:before {
   height: auto;
 }
 #he-logo {
+  margin-top: 20px;
   width: 25vw;
   height: auto;
 }
 #bsee-logo {
   margin-top: -20px;
-  width: 15vw;
+  width: 10vw;
+  height: auto;
+}
+#dash-logo{
+  margin-top: 10px;
+  width: 17vw;
   height: auto;
 }
 /* media queries */
