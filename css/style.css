@@ -548,7 +548,7 @@ sup {
 
 .container-full {
   width: 100%;
-  height: 110vh;
+  height: 130vh;
   color: #fff;
   /* max-width: 100%; */
   /* overflow: hidden; */
@@ -2389,7 +2389,7 @@ body:before {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  height: 120vh;
+  height: 130vh;
 }
 
 
@@ -2911,11 +2911,21 @@ body:before {
   height: auto;
 }
 #he-logo {
+  margin-top: 20px;
   width: 25vw;
   height: auto;
 }
 #bsee-logo {
   margin-top: -20px;
+  width: 10vw;
+  height: auto;
+}
+#dash-logo{
+  margin-top: 10px;
+  width: 17vw;
+  height: auto;
+}
+#soylent-logo{
   width: 15vw;
   height: auto;
 }
@@ -2927,8 +2937,8 @@ body:before {
   .six {
     padding-bottom: 5vh;
   }
-  #sponsorus {
-    height: 70vh;
+ #sponsorus {
+    height: 80vh;
   }
 }
 
@@ -2939,8 +2949,8 @@ body:before {
   .six {
     padding-bottom: 5vh;
   }
-  #sponsorus {
-    height: 80vh;
+  #sponsorus{
+    height: 120vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -2952,8 +2962,9 @@ body:before {
   }
 
   #sponsorus{
-    height: 100vh;
+    height:120vh;
   }
+  
 }
 
 
@@ -2966,7 +2977,7 @@ body:before {
   }
 
   #sponsorus{
-    height:110vh;
+    height:120vh;
   }
   
 }
