@@ -2389,7 +2389,7 @@ body:before {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  height: 150vh;
+  height: 130vh;
 }
 
 
@@ -2937,7 +2937,7 @@ body:before {
   .six {
     padding-bottom: 5vh;
   }
- #sponsorus {
+  #sponsorus {
     height: 80vh;
   }
 }
@@ -2949,8 +2949,8 @@ body:before {
   .six {
     padding-bottom: 5vh;
   }
-  #sponsorus{
-    height: 120vh;
+  #sponsorus {
+    height: 100vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -2962,9 +2962,8 @@ body:before {
   }
 
   #sponsorus{
-    height:120vh;
+    height: 120vh;
   }
-  
 }
 
 
