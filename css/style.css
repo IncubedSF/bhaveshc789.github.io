@@ -2389,7 +2389,7 @@ body:before {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  height: 130vh;
+  height: 150vh;
 }
 
 
@@ -2912,7 +2912,7 @@ body:before {
 }
 #he-logo {
   margin-top: 20px;
-  width: 25vw;
+  width: 15vw;
   height: auto;
 }
 #bsee-logo {
@@ -2926,7 +2926,12 @@ body:before {
   height: auto;
 }
 #soylent-logo{
-  width: 15vw;
+  width: 10vw;
+  height: auto;
+}
+#yerba-logo{
+  margin-top: -20px;
+  width:7vw;
   height: auto;
 }
 /* media queries */
