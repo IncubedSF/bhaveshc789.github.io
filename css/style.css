@@ -2934,6 +2934,10 @@ body:before {
   width:7vw;
   height: auto;
 }
+#github-logo{
+  width: 15vw;
+  height: auto;
+}
 /* media queries */
 @media screen and (max-width: 1024px) {
   #faq {
@@ -2943,7 +2947,7 @@ body:before {
     padding-bottom: 5vh;
   }
   #sponsorus {
-    height: 80vh;
+    height: 90vh;
   }
 }
 
@@ -2967,7 +2971,7 @@ body:before {
   }
 
   #sponsorus{
-    height: 120vh;
+    height: 130vh;
   }
 }
 
@@ -3108,3 +3112,26 @@ p{
   line-height: 1.25;
 }
 
+footer {
+  text-align: center;
+  background: #1A1F21;
+  font-size: 18px;
+  height: 120px;
+}
+.fa{
+  padding: 20px;
+  color:white;
+}
+.fa:hover{
+  color: #E74F74;
+}
+
+.footer-text{
+  font-family: "myFont";
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 3px;
+color: #E74F74;
+}
