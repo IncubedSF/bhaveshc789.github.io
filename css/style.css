@@ -2389,7 +2389,7 @@ body:before {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  height: 150vh;
+  height: 190vh;
 }
 
 
@@ -2938,6 +2938,19 @@ body:before {
   width: 15vw;
   height: auto;
 }
+#msft-logo{
+  width: 60vw;
+  height: auto;
+}
+#ibm-logo{
+  width: 20vw;
+  height: auto;
+}
+#macy-logo{
+  margin-top: -40px;
+  width: 75%;
+  height: auto;
+}
 /* media queries */
 @media screen and (max-width: 1024px) {
   #faq {
@@ -2947,7 +2960,7 @@ body:before {
     padding-bottom: 5vh;
   }
   #sponsorus {
-    height: 90vh;
+    height: 115vh;
   }
 }
 
@@ -2959,7 +2972,7 @@ body:before {
     padding-bottom: 5vh;
   }
   #sponsorus {
-    height: 110vh;
+    height: 120vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -2971,7 +2984,7 @@ body:before {
   }
 
   #sponsorus{
-    height: 140vh;
+    height: 155vh;
   }
 }
 
@@ -2985,7 +2998,7 @@ body:before {
   }
 
   #sponsorus{
-    height:130vh;
+    height:150vh;
   }
   
 }
@@ -3135,3 +3148,4 @@ footer {
   letter-spacing: 3px;
 color: #E74F74;
 }
+
