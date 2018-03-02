@@ -2942,6 +2942,11 @@ body:before {
   width: 60vw;
   height: auto;
 }
+
+#msft-logo2{
+  width: 25vw;
+  height: auto;
+}
 #ibm-logo{
   width: 20vw;
   height: auto;
@@ -2956,6 +2961,10 @@ body:before {
   #faq {
     height: 90vh;
   }
+  #msft-logo2{
+    width: 30vw;
+    height: auto;
+  }
   .six {
     padding-bottom: 5vh;
   }
@@ -2968,6 +2977,10 @@ body:before {
   #faq {
     height: 160vh;
   }
+  #msft-logo2{
+    width: 40vw;
+    height: auto;
+  }
   .six {
     padding-bottom: 5vh;
   }
@@ -2979,6 +2992,10 @@ body:before {
   #faq {
     height: 200vh;
   }
+  #msft-logo2{
+    width: 60vw;
+    height: auto;
+  }
   .six {
     padding-bottom: 5vh;
   }
@@ -2989,9 +3006,14 @@ body:before {
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px
+) {
   #faq{
     height: 220vh;
+  }
+  #msft-logo2{
+    width: 60vw;
+    height: auto;
   }
   .six{
     padding-bottom: 5vh;
