@@ -2389,7 +2389,7 @@ body:before {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  height: 190vh;
+  height: 200vh;
 }
 
 
@@ -2969,7 +2969,7 @@ body:before {
     padding-bottom: 5vh;
   }
   #sponsorus {
-    height: 115vh;
+    height: 130vh;
   }
 }
 
@@ -2985,7 +2985,7 @@ body:before {
     padding-bottom: 5vh;
   }
   #sponsorus {
-    height: 120vh;
+    height: 140vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -3001,13 +3001,12 @@ body:before {
   }
 
   #sponsorus{
-    height: 160vh;
+    height: 190vh;
   }
 }
 
 
-@media screen and (max-width: 360px
-) {
+@media screen and (max-width: 360px) {
   #faq{
     height: 220vh;
   }
@@ -3020,7 +3019,7 @@ body:before {
   }
 
   #sponsorus{
-    height:150vh;
+    height:180vh;
   }
   
 }
