@@ -2904,6 +2904,10 @@ body:before {
   }
 }
 
+#judges{
+  margin-top: 30vh;
+  height: 300vh;
+}
 
 /* logos */
 #twilio-logo{
@@ -2957,15 +2961,11 @@ body:before {
   height: auto;
 }
 /* media queries */
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
-  #schedule{
-    height: 450vh !important;
-  }
-}
 @media screen and (max-width: 1024px) {
-  #schedule{
-    margin-top:5vh !important;
+  #judges{
+    height: 200vh;
   }
+  
   #faq {
     height: 90vh;
   }
@@ -2982,8 +2982,8 @@ body:before {
 }
 
 @media screen and (max-width: 770px) {
-  #schedule{
-    margin-top:130vh !important;
+  #judges{
+    height: 350vh;
   }
   #faq {
     height: 160vh;
@@ -2994,9 +2994,6 @@ body:before {
   }
   .six {
     padding-bottom: 5vh;
-  }
-  #schedule{
-    margin-top:580vh;
   }
   #sponsorus {
     height: 140vh;
@@ -3013,25 +3010,26 @@ body:before {
   .six {
     padding-bottom: 5vh;
   }
-#schedule{
-    margin-top:560vh !important;
-  }
   #sponsorus{
     height: 190vh;
+  }
+  #judges{
+    margin-top: -10vh;
+    height: 880vh;
   }
 }
 
 
+
 @media screen and (max-width: 380px) {
-  #schedule{
-    margin-top:590vh !important;
-  }
+  #judges{height: 960vh;}
+  
 
 }
 
 @media screen and (max-width: 360px) {
-  #schedule{
-    margin-top:620vh !important;
+  #judges{
+    height: 1000vh;
   }
   
   #faq{
@@ -3043,9 +3041,6 @@ body:before {
   }
   .six{
     padding-bottom: 5vh;
-  }
-#schedule{
-    margin-top:200vh;
   }
   #sponsorus{
     height:180vh;
@@ -3080,10 +3075,6 @@ p{
 #schedule h3 {
   padding: 0;
   margin: 0;
-}
-
-#schedule{
-  margin-top: 70vh;
 }
 
 .date {
