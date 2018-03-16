@@ -3014,7 +3014,11 @@ body:before {
     height: 190vh;
   }
   #judges{
-    height: 920vh;
+    margin-top: -5vh;
+    height: 880vh;
+  }
+  #schedule{
+    margin-top:30vh;
   }
 }
 
