@@ -1,0 +1,111 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700';
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: "Roboto Condensed", Helvetica, arial, sans-serif;
+  font-size: 1.5vmin;
+}
+main {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: difference;
+  z-index: 1;
+}
+aside {
+  flex: 2;
+  z-index: 1;
+  mix-blend-mode: luminosity;
+}
+svg {
+  width: 70vmin;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  opacity: 0;
+  z-index: 0;
+  animation: fade 15s alternate infinite;
+}
+
+header {
+  flex: 0 0 auto;
+  font-size: 1.2em;
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+  padding: .5em;
+  color: #232325;
+  background: #fff;
+  height: 100%;
+}
+
+aside {
+  overflow: auto;
+  font-size: 2em;
+  background: #232325;
+  color: #fff;
+  display: flex;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: subpixel-antialiased;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 2rem 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+  }
+  li {
+    position: relative;
+    padding: 0 3rem;
+    transition: font-size 2s ease;
+    h3 {
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: 200;
+      b {
+        font-weight: 700;
+      }
+    }
+    small {
+      color: #93D1FA;
+    }
+    &:not(.current){
+      font-size: .65em;
+      opacity: .3;
+      text-shadow: 1px 1px 0 #000;
+    }
+    &.current {
+      flex: 0 0 auto;
+      font-size: 1.1em;
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: -.1em;
+        transform: translateY(-10%);
+        border: .5em solid;
+        border-width: 1em 0 1em .65em;
+        border-color: transparent;
+        border-left-color: currentColor;
+      }
+    }
+  }
+}
+*, *::before, *::after {box-sizing: border-box}
+html,
+body {
+  height: 100%;
+  background: #000; // fixes chrome 58+ mix-blend-mode bug
+}
