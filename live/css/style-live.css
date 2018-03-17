@@ -415,3 +415,9 @@ img.sflogo {
   transition: transition 12000ms ease-in-out, -webkit-transform 12000ms ease-in-out;
   mix-blend-mode: overlay;
 }
+
+a.hackerlink{
+  color: #C252FF;
+  text-decoration: none
+}
+

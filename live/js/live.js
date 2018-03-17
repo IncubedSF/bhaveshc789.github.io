@@ -11,8 +11,7 @@
         { range: ['13:41', '14:30'], display: { h: '1:', m: '50', a: 'pm' }, location: '', desc: 'Introduction to IBM Watson' },
         { range: ['14:31', '15:20'], display: { h: '2:', m: '40', a: 'pm' }, location: '', desc: 'Introduction to Twilio API' },
         { range: ['15:21', '16:10'], display: { h: '3:', m: '30', a: 'pm' }, location: '', desc: 'Google Cloud Platform Workshop' },
-        { range: ['16:11', '17:00'], display: { h: '4:', m: '20', a: 'pm' }, location: '', desc: '' },
-        { range: ['17:01', '17:50'], display: { h: '5:', m: '10', a: 'pm' }, location: '', desc: 'David Chow' },
+        { range: ['16:11', '17:10'], display: { h: '4:', m: '20', a: 'pm' }, location: '', desc: 'Introduction to Mobile Dev Workshop' },
       ]
     }
   ]
