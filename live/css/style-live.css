@@ -173,7 +173,7 @@ main li.after-hours {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 1);
   line-height: 1.5;
   width: 100vw;
   height: 100vh;
@@ -396,7 +396,22 @@ animation: Gradient 15s ease infinite;
   border-radius: 50% !important;
 }
 .sflogo{
-  margin: 24%;
+  
   height: 320px;
   width: 320px;
+}
+
+img.sflogo {
+  position: absolute;
+  margin: 24%;
+  pointer-event: none;
+  font-size: 100vmax;
+  will-change: transition;
+  -webkit-transition: var(--transition);
+          transition: var(--transition);
+  -webkit-transition: -webkit-transition 12000ms ease-in-out;
+  transition: -webkit-transition 12000ms ease-in-out;
+  transition: transition 12000ms ease-in-out;
+  transition: transition 12000ms ease-in-out, -webkit-transform 12000ms ease-in-out;
+  mix-blend-mode: overlay;
 }

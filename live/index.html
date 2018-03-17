@@ -7,7 +7,6 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
   <link rel="stylesheet" href="css/style-live.css">
 </head>
-<body>
   <body class="a gradient-background" ng-app="app" ng-controller="ctrl">
     <main>
       <section v-for="(day, index) in schedule">
@@ -23,15 +22,20 @@
               <small v-html="slot.location"></small>
             </div>
           </li>
+          <li class="after-hours">
+            <div>
+              <b>Hacking starts 12 PM March 17th. Hacking ends 12PM March 18th</b>
+              <br />Workshops start at 1PM March 17th.
+              <br />Submissions at 
+              <br />
+            </div>
+          </li>
         </ul>
       </section>
     </main>
     <aside>
       <div class="clock">
         <!-- <h3>{{time}}</h3> -->
-      </div>
-      <div>
-        <img src="1.svg" class="sflogo">
       </div>
       <div class="control" v-bind:class="{ show: showTimeTraveller }">
         <header v-on:click="showTimeTraveller = !showTimeTraveller">
@@ -44,11 +48,11 @@
         </header>
         <div>
           <p>
-            <input type="range" min="11" max="48" step="0.1" v-model="now" id="traveler" />
+            <input type="range" min="13" max="23.9" step="0.1" v-model="now" id="traveler" />
           </p>
-          <p>To-do: Multi-day Traversing</p>
         </div>
       </div>
+      <img src="1.svg" class="sflogo">
     </aside>
   </body>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>

@@ -6,17 +6,13 @@
     {
       date: now,
       agenda: [
-        { range: ['11:00', '12:59'], display: { h: '12:', m: '00', a: 'pm' }, location: '', desc: 'Hacking begins!' },
-        { range: ['13:00', '13:40'], display: { h: '1:', m: '00', a: 'pm' }, location: '', desc: 'Macy workshop' },
+        // { range: ['11:00', '12:59'], display: { h: '12:', m: '00', a: 'pm' }, location: '', desc: 'Hacking begins!' },
+        { range: ['13:00:', '13:40'], display: { h: '1:', m: '00', a: 'pm' }, location: '', desc: 'Macy workshop' },
         { range: ['13:41', '14:30'], display: { h: '1:', m: '50', a: 'pm' }, location: '', desc: 'Introduction to IBM Watson' },
         { range: ['14:31', '15:20'], display: { h: '2:', m: '40', a: 'pm' }, location: '', desc: 'Introduction to Twilio API' },
         { range: ['15:21', '16:10'], display: { h: '3:', m: '30', a: 'pm' }, location: '', desc: 'Google Cloud Platform Workshop' },
         { range: ['16:11', '17:00'], display: { h: '4:', m: '20', a: 'pm' }, location: '', desc: '' },
         { range: ['17:01', '17:50'], display: { h: '5:', m: '10', a: 'pm' }, location: '', desc: 'David Chow' },
-        { range: ['17:51', '20:00'], display: { h: '7:' , m: '00', a: 'pm' }, location: '', desc: 'Dinner!' },
-        { range: ['20:01', '30:59'], display: { h: '', m: '', a: '' }, location: '', desc: 'Hacking continues' },
-        { range: ['31:00', '33:00'], display: { h: '8:', m: '00', a: 'am' }, location: '', desc: 'Breakfast' },
-        { range: ['33:01', '48:00'], display: { h: '12:', m: '00', a: 'am' }, location: '', desc: 'Hacking ends!' }
       ]
     }
   ]
@@ -25,7 +21,7 @@
     let hh = parseInt(num)
     let mm = Math.round((num - hh) * 60)
     sep = sep || ''
-    return (hh > 24 && ampm ? hh : hh) + sep + ('00' + mm).substr(-2) + (ampm ? (hh > 11 ? ' pm' : ' am') : '')
+    return (hh > 12 && ampm ? hh-12 : hh) + sep + ('00' + mm).substr(-2) + (ampm ? (hh > 11 ? ' pm' : ' am') : '')
   }
 
   let numFromTime = (time) => {
